@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<body>
+    <h1>Travel reservation form</h1>
+    <h3>* denotes mandatory</h3>
+    <form action="" method="POST">
+        <label for="fullname">Full name*:</label><br>
+        <input type="text" id="fullname" name="fullname" required><br>
+        
+        <label for="email">Email address*:</label><br>
+        <input type="text" id="email" name="email" required><br>
+
+        <label for="package">Select tour package*:</label><br>
+        <select id="package" name="package" required>
+            <option value="abc">Abc</option>
+            <option value="bca">Bca</option>
+            <option value="cab">Cab</option>
+        </select><br>
+
+        <label for="arrival">Arrival date*:</label><br>
+        <input type="text" id="arrival" placeholder="m/d/y" required><br>
+
+        <label for="numperson">Number of persons*:</label><br>
+        <input type="text" id="numperson" required><br>
+
+        <p>What would you want to avail?*<br>
+        <label>Boarding<input type="checkbox" name="avail" value="boarding"></label><br>
+        <label>Fooding<input type="checkbox" name="avail" value="fooding"></label><br>
+        <label>Sight seeing<input type="checkbox" name="avail" value="sightseeing"></label><br></p>
+
+        <label for="coupon">Discount Coupon code:</label><br>
+        <input type="text" id="coupon"><br>
+
+        <p>Terms and conditions*<br>
+        <label>I agree<input type="radio" name="tos" value="agreed" required></label>
+        <label>I disagree<input type="radio" name="tos" value="disagreed" required></label></p>
+
+        <input type="submit" value="Complete reservation">
+    </form>
+</body>
+</html>

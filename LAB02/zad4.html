@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        label {font-weight:bold}
+    </style>
+</head>
+<body>
+    <form action="" method="POST">
+        <p><label>Title*</label><br>
+        <input type="text" name="title" required><br></p>
+
+        <p><label>Date</label><br>
+        <input type="date" name="date"><br>
+        Date-only description.</p>
+
+        <p><fieldset>
+            <label>DATE/TIME</label><br>
+            <input type="date" name="date"><input type="time" name="time"><br>
+            Date and time description.
+        </fieldset></p>
+
+        <p><fieldset>
+            <label>DATE RANGE</label>
+            <fieldset>
+                <label>START DATE</label><br>
+                <input type="date" name="start"><input type="time" name="start time"><br>
+            </fieldset>
+            <fieldset>
+                <label>END DATE</label><br>
+                <input type="date" name="end"><input type="time" name="end time"><br>
+            </fieldset>
+            Date range description.
+        </fieldset></p>
+
+        <p><fieldset>
+            <label>DATE/TIME LIST</label><br>
+            <select name="year">
+                <option value="" selected disabled hidden>Year</option>
+                <option value="2021-2024">2020-2024</option>
+                <option value="2011-2020">2011-2020</option>
+                <option value="2001-2010">2001-2010</option>
+                <option value="1991-2000">1991-2000</option>
+                <option value="1981-1990">1981-1990</option>
+            </select>
+            <select name="month">
+                <option value="" selected disabled hidden>Month</option>
+                <option value="1-3">1-3</option>
+                <option value="4-6">4-6</option>
+                <option value="7-9">7-9</option>
+                <option value="10-12">10-12</option>
+            </select>
+            <select name="day">
+                <option value="" selected disabled hidden>Day</option>
+                <option value="1-7">1-7</option>
+                <option value="8-14">8-14</option>
+                <option value="21-28">21-28</option>
+                <option value="29-31">29-31</option>
+            </select>
+            <select name="hour">
+                <option value="" selected disabled hidden>Hour</option>
+                <option value="00">00</option>
+                <option value="01">01</option>
+                <option value="02">02</option>
+                <option value="03">03</option>
+                <option value="04">04</option>
+                <option value="05">05</option>
+                <option value="06">06</option>
+                <option value="07">07</option>
+                <option value="08">08</option>
+                <option value="09">09</option>
+                <option value="10">10</option>
+                <option value="11">11</option>
+                <option value="12">12</option>
+            </select>
+            <select name="minute">
+                <option value="" selected disabled hidden>Minute</option>
+                <option value="00">00</option>
+                <option value="15">15</option>
+                <option value="30">30</option>
+                <option value="45">45</option>
+            </select>
+        </fieldset></p>
+    </form>
+</body>
+</html>

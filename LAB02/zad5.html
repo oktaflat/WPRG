@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <style>
+        form {margin-bottom:10px}
+    </style>
+</head>
+<body>
+    <form action="" method="POST">
+        <label>Imię: </label>
+        <input type="text" name="imie"><br>
+
+        <label>Ulubiony kolor: </label>
+        <input list="kolor" name="kolor">
+        <datalist id="kolor" name="kolor">
+            <option value="Czerwony"></option>
+            <option value="Niebieski"></option>
+            <option value="Zielony"></option>
+            <option value="Żółty"></option>
+            <option value="Różowy"></option>
+            <option value="Pomarańczowy"></option>
+            <option value="Fioletowy"></option>
+            <option value="Czarny"></option>
+            <option value="Biały"></option>
+        </datalist>
+
+        <input type="submit" value="Zapisz">
+    </form>
+
+    <form action="" method="POST">
+        <label>Wartość: </label>
+        <input type="range" name="wartosc" min="0" max="10" step="1"><br>
+        <input type="submit" value="Wyślij">
+    </form>
+    
+    <form action="" method="POST">
+        <label>Aktualny postęp: <progress value="50" max="100">50%</progress></label><br>
+        <label>Całkowity postęp: <progress value="80" max="100">80%</progress></label><br>
+        <input type="submit" value="Wyślij">
+    </form>
+
+    <form action="" method="POST">
+        <label>Imię i nazwisko: </label>
+        <input type="text" name="fullname"><br>
+        <input type="hidden" name="silly" value="silly">
+        <input type="submit" value="Wyślij">
+    </form>
+</body>
+</html>

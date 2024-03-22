@@ -1,0 +1,57 @@
+h1 {
+    color: blue;
+    font-size: 35px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+h3, h4 {
+    font-size: large;
+}
+
+h3 {
+    color: blueviolet;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+h4 {
+    color: darkblue;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+p, blockquote {
+    color: rgb(95, 105, 160);
+    font-size: medium;
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+blockquote {
+    font-style: italic;
+    font-weight: normal;
+}
+
+em {
+    color:blue;
+    font-weight: bold;
+}
+
+blockquote em {
+    font-style: normal;
+}
+
+a {
+    font-size: .8em;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style: italic;
+}
+
+hr {
+    border: 1px dashed cadetblue;
+    margin-top: 2vw;
+}
+
+/*
+    p > em : selects all em in p
+    p + em : selects the first em after p
+    p ~ em : selects em after every p
+*/

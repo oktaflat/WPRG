@@ -1,0 +1,7 @@
+ol {
+    font-weight: bold;
+}
+
+.x ~ .b {
+    background-color: lightblue;
+}

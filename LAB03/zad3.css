@@ -1,0 +1,36 @@
+body {
+    text-align:center;
+    background-color: #d2dc9d;
+    background-image: url("https://th.bing.com/th/id/R.993f9fa62fc1de63e32d5cc103ccc190?rik=XQKcpazvrLux%2fg&pid=ImgRaw&r=0");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+body:active {
+    background-color: #ffffff;
+    color: #ff0fff;
+}
+
+header {
+    background-color: rgba(255,255,255,.5);
+    background-image: url("https://th.bing.com/th/id/R.300220188eb14633155f8987225fc6b6?rik=QreKApLpVKXCFA&riu=http%3a%2f%2fpurepng.com%2fpublic%2fuploads%2flarge%2fpurepng.com-carrotscarrotvegetablesfreshdeliciousefoodhealthycarrots-481521740717jmglq.png&ehk=9IXLEGvUcyfKgC0rhtK1pnq8LLFurAmkbIzhoi2xOkM%3d&risl=1&pid=ImgRaw&r=0");
+    background-size: contain;
+    background-repeat: repeat-x;
+}
+
+a, h1 {
+    color: #993399;
+}
+
+h2 {
+    color: #cc6600;
+}
+
+a:active, a:hover {
+    color: #c700f2;
+    background-color: #ffffff;
+}
+
+a:visited {
+    color: #937393;
+}

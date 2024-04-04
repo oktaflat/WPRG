@@ -1,0 +1,27 @@
+div {
+    width: 60%;
+    background-color: lightgray;
+    border: 2px solid black;
+    margin: 12px 12px;
+}
+
+.second {
+    width: auto;
+    border: 5px solid white;
+    margin: 12px 12px;
+}
+
+.third {
+    width: auto;
+    border: 1px solid black;
+    background-color: white;
+    margin: 12px 12px;
+}
+
+.fourth {
+    width: auto;
+    border: 1px solid black;
+    background-color: lightgray;
+    margin: 5px 5px;
+    padding: 10px 10px;
+}

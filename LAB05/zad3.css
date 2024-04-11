@@ -1,0 +1,99 @@
+body {
+    background-color: #fffffe;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+}
+
+#top {
+    height: 400px;
+    background-image: url(https://static.wikia.nocookie.net/ensemble-stars/images/b/b2/%28Yellow-Black_Usher%29_Tomoya_Mashiro_CG.png/revision/latest?cb=20201231202732);
+    background-size: cover;
+    color: #fffffe;
+    box-shadow: 0 3px 5px #00000033;
+    margin-bottom: 40px;
+}
+
+#top:hover {
+    background-image: url(https://static.wikia.nocookie.net/ensemble-stars/images/f/fc/%28Yellow-Black_Usher%29_Tomoya_Mashiro_CG2.png/revision/latest?cb=20201231202735);
+    background-size: cover;
+}
+
+#nav {
+    height: 40px;
+    background-color: #0000007e;
+    box-shadow: 0 5px 10px #0000007e;
+}
+
+ul {
+    display: flex;
+    list-style: none;
+}
+
+li {
+    margin: 0;
+    margin-right: auto;
+    line-height: 40px;
+}
+
+.first {
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+.imgtext {
+    display: flex;
+    flex-direction: column;
+    flex: none;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    text-shadow: 
+        0 2px 0 #0000007e,
+        2px 0 0 #0000007e,
+        0 -2px 0 #0000007e,
+        -2px 0 0 #0000007e;
+}
+
+#container {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    width: 60%;
+    margin: auto;
+}
+
+.box {
+    display: flex;
+    flex-direction: column;
+    flex: 1 0 auto;
+    width: 30%;
+    height: 450px;
+    box-shadow: 0 3px 5px #00000033;
+}
+
+.box10, .box11 {
+    flex: 2 0 auto;
+}
+
+.colorblock {
+    display: flex;
+    justify-content: end;
+    align-items: flex-end;
+    flex: none;
+    background-color: rgb(25, 87, 66);
+    height: 200px;
+    padding: 8px;
+    color: #fffffe;
+    text-shadow: 
+        0 2px 0 #0000007e,
+        2px 0 0 #0000007e,
+        0 -2px 0 #0000007e,
+        -2px 0 0 #0000007e;
+}
+
+.post {
+    padding: 8px;
+    overflow: hidden;
+}

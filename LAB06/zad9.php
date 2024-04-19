@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <html>
 <body>
     <?php
@@ -15,13 +16,13 @@
         $zdj = [];
         for($i = 0; $i < 3; $i++) {
             do {
-                $x = rand(1, 9);
+                $x = rand(0, 8);
             } while (in_array($x, $zdj));
             $zdj[] = $x;
         }
 
         foreach($zdj as $x) {
-            echo "<img src=" . "$tomoyacollection[$x]" . "alt=" . "tomoya $x". ">";
+            echo "<img src=" . "'$tomoyacollection[$x]'" . "alt=" . "'tomoya $x'". "height='300'>";
         }
     ?>
 </body>

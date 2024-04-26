@@ -36,7 +36,7 @@
 
                 switch ($_GET["operacja"]) {
                     case "suma":
-                        $c = array_merge($a, $b);
+                        $c = array_merge($a, array_diff($b, $a));
                         break;
                     case "roznica":
                         $c = array_diff($a, $b);

@@ -1,0 +1,39 @@
+body {
+    background-color: #25254a;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #e8e9ef;
+}
+
+div.main {
+    width: 400px;
+    height: 50vh;
+    margin: auto;
+    margin-top: 25vh;
+    text-align: center;
+}
+
+div.form {
+    background-color: #464681;
+    box-shadow: 2px 2px 3px #1a1a38;
+    border-radius: 3px;
+    padding: 20px;
+    text-align: left;
+}
+
+div.result {
+    margin-top: 2.5em;
+}
+
+input, select {
+    width: 100%;
+    border: none;
+    border-radius: 3px;
+    background-color: #e8e9ef;
+}
+
+input[type="submit"] {
+    margin-top: 1em;
+    padding: 5px;
+    background-color: #d74939;
+    color: #e8e9ef;
+}

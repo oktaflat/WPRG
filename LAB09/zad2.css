@@ -1,0 +1,48 @@
+body {
+    background-color: #c8dae2;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+div#all {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    width: 100vw;
+    justify-content: center;
+    align-items: center;
+}
+
+div#main {
+    display: flex;
+    flex-direction: column;
+    height: fit-content;
+    justify-content: center;
+    align-items: center;
+}
+
+div#main > div {
+    width: 40vw;
+}
+
+div#counter {
+    background-color: #f7fbfc;
+    box-shadow: 3px 3px 3px #b2bfdc;
+    font-family: 'Courier New', Courier, monospace;
+    padding: 15px;
+    border-radius: 5px;
+    margin-bottom: 1em;
+}
+
+h1 {
+    font-weight: normal;
+    letter-spacing: 1px;
+}
+
+input {
+    background-color: #42a63e;
+    color: #f7fbfc;
+    width: 100%;
+    border: none;
+    height: 3em;
+    border-radius: 5px;
+}

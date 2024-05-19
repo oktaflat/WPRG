@@ -1,0 +1,45 @@
+body {
+    background-color: #f5f7f8;
+    color: #252f37;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+div#all {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+}
+
+div#main {
+    background-color: #fffffd;
+    height: fit-content;
+    width: 60vw;
+    padding: 15px;
+    border: 1px solid #4a7fb5;
+    border-radius: 4px;
+}
+
+input, select {
+    height: 2em;
+    width: 100%;
+    margin-bottom: 1.2em;
+    border-radius: 2px;
+    border: 1px solid #4a7fb5;
+}
+
+input[type="submit"] {
+    background-color: #4a7fb5;
+    color: #fffffd;
+}
+
+div.result {
+    background-image: linear-gradient(to right, #4a7fb5 1%, #e1e6e8 1%);
+    padding: 8px;
+}
+
+div.result > h3 {
+    margin-bottom: 0;
+}

@@ -1,0 +1,66 @@
+body {
+    background-color: #343c47;
+    color: #202125;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+div#all {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+}
+
+div#main {
+    height: fit-content;
+    width: 400px;
+    text-align: center;
+}
+
+div#allOpinions {
+    background-color: #cdd1d8;
+    border-radius: 5px;
+    padding: 12px;
+}
+
+h1 {
+    color: #f5f7f8;
+}
+
+input {
+    background-color: #4a7fb5;
+    color: #f5f7f8;
+    height: 2.5em;
+    width: 50%;
+    margin-top: 0.8em;
+    border: none;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+div.opinion {
+    text-align: right;
+}
+
+div.opinion > p {
+    margin: 0;
+    text-align: center;
+}
+
+input.reset {
+    background-color: #b64242;
+    width: 20%;
+    height: 2em;
+}
+
+textarea {
+    padding: 5px;
+    border-radius: 5px;
+}
+
+hr {
+    border-style: solid;
+    color: #979ba3;
+}

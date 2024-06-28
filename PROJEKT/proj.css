@@ -1,0 +1,250 @@
+body {
+    background-color: #e1e6e8;
+    color: #3a1500;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+}
+
+a {
+    color: #3a1500;
+    font-weight: bold;
+    text-decoration: underline 2px solid #ffc735;
+}
+
+/*MAIN DIV*/
+div {
+    border-radius: 6px;
+}
+
+div.all {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    width: 100vw;
+    justify-content: center;
+    align-items: center;
+}
+
+div.all > div {
+    height: fit-content;
+    width: fit-content;
+    margin-top: 1.2em;
+    padding: 20px;
+    background-color: #f5f7f8;
+    border: 1px solid #c1c9ca;
+    box-shadow: 12px 8px 0 #c1c9ca;
+    text-align: right;
+}
+
+/*IMAGES*/
+div.charImg {
+    background-color: #c1c9ca;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+/*LIST*/
+ul {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    margin: 0;
+}
+
+li {
+    margin: 0 1em;
+}
+
+li.big {
+    margin-right: auto;
+}
+
+
+/*INPUT & BUTTONS*/
+input, button {
+    border: 1px solid #8c380a;
+    border-radius: 3px;
+}
+
+input[type="text"], input[type="password"] {
+    width: 22vw;
+}
+
+input[type="submit"], button {
+    width: 15vw;
+    padding: 0.3em;
+    margin-top: 0.3em;
+    background-color: #ffaa2b;
+    color: #8c380a;
+}
+
+input[type="submit"]:hover, button:hover {
+    background-color: #f38414;
+}
+
+input[type="submit"]:active, button:active {
+    background-color: #ffa237;
+}
+
+input[type="submit"]:disabled {
+    background-color: #c1c9ca;
+    color: #6d7171;
+    border-color: #6d7171;
+}
+
+/*HOME*/
+div#header {
+    width: fit-content;
+}
+div#nav {
+    width: 30vw;
+}
+div#nav > a > button {
+    width: 100%;
+}
+div#nav > a {
+    letter-spacing: 2px;
+    text-decoration: none;
+    font-weight: normal;
+}
+div#nav > a > em {
+    color: #d3710f;
+    font-weight: bold;
+    text-decoration: underline 2px wavy #ffc735;
+}
+button#game {
+    height: 3em;
+    background-color: #ffc735;
+    color: #ac3e00;
+    font-weight: bold;
+    font-size: 1.2em;
+}
+button#game:hover {
+    background-color: #ffd35e;
+    color: #ae510e;
+}
+li.underlined {
+    text-decoration: underline 2px #ffc735;
+}
+span.variable {
+    color: #d3710f;
+    font-weight: bold;
+}
+
+
+/*SHOP*/
+div#shop {
+    height: fit-content;
+    width: fit-content;
+}
+div#charBuyAll {
+    display: flex;
+    flex-direction: row;
+    gap: 12px;
+    align-items: center;
+    justify-items: center;
+    text-align: center;
+}
+div#charBuyAll > div > div {
+    padding: 3px;
+    height: 200px;
+    width: 250px;
+}
+div#charBuyAll > div > form > input {
+    width: 80%;
+}
+div#charBuyAll > div > div.charImg > p {
+    margin: 0.2em;
+    text-decoration: underline 2px wavy #f38414;
+    font-weight: bold;
+}
+hr.shopSeparation{
+    margin: 1.6em 0;
+}
+div#healItems > div {
+    height: 100px;
+    background-repeat: repeat;
+    background-size: contain;
+}
+div#healItems > form {
+    text-align: center;
+}
+div#healItems > form > input {
+    width: 80%;
+}
+span.underlined {
+    text-decoration: underline 2px #ffc735;
+}
+
+/*CODES*/
+div#code {
+    text-align: center;
+}
+div#code > form > input, button {
+    width: 100%;
+}
+
+div#hiddenCodes {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    border: none;
+    box-shadow: none;
+    background-color: #e1e6e8;
+    color: rgba(58, 21, 0, 0.07);
+}
+div#hiddenCodes > ul {
+    flex-direction: column;
+}
+
+
+/*CHARACTER SELECTION*/
+div#charSelectAll {
+    width: fit-content;
+}
+div.charSelect > div.charImg > p {
+    margin: 0.2em;
+    font-weight: bold;
+    text-shadow: 1px 1px 0 #e1e6e8;
+}
+hr#charselectSeparation {
+    margin: 1em;
+}
+span.charName {
+    font-style: italic;
+    text-decoration: underline 2px wavy #f38414;
+    text-shadow: 2px 2px 0 #e1e6e8;
+
+}
+
+
+/*GAME*/
+div#game {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 50vh;
+    width: 50vw;
+    padding: 6px;
+}
+div#game > div#window {
+    margin: 2em 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 80%;
+    overflow: hidden;
+}
+div#game > div#window > img {
+    height: 150px;
+    overflow: hidden;
+}
+div#windowTop > ul {
+    display: flex;
+    gap: 12px;
+}
+div#windowTop > ul > li {
+    margin-right: auto;
+    margin-left: auto;
+}

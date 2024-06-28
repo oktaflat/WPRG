@@ -1,0 +1,26 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+div {
+    width: fit-content;
+    padding: 15px;
+    margin: 0 auto;
+    text-align: center;
+    background-color: #d8e2ea;
+    box-shadow: 6px 6px 0 #b1bdc4;
+    border-radius: 12px;
+}
+
+input {
+    border-radius: 6px;
+    background-color: #818f97;
+    box-shadow: 3px 3px 0 #b1bdc4;
+    color: #fff;
+    border: none;
+    padding: 10px;
+}
+
+input:active {
+    background-color: #596670;
+}
